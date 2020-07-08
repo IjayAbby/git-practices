@@ -1,0 +1,12 @@
+[data-component="slideshow"] .slide {
+    display: none;
+  }
+
+  [data-component="slideshow"] .slide.active {
+    display: block;
+  }
+
+  img {
+    width:  800px;
+    height: 600px;
+}
