@@ -26,3 +26,16 @@ a  {
     height: 100%;
     width: 80%;
 }
+
+[data-component="slideshow"] .slide {
+	display: none;
+  text-align: center;
+}
+
+[data-component="slideshow"] .slide.active {
+	display: block;
+}
+img {
+    width: 1320px;
+    height: 600px;
+}
